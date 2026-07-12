@@ -55,3 +55,27 @@ EcoSphere
 ├── js/
 └── backend/
 ```
+How to Run
+
+1. Clone the repo.
+2. Open the code in VS Code.
+3. Launch the frontend with Live Server.
+4. Run the Spring Boot backend.
+5. Link the MySQL database.
+6. Browse the EcoSphere dashboard.
+
+---
+
+Future Enhancements
+
+- User authentication
+- AI-powered ESG suggestions
+- Email alerts
+- Generation of PDF reports
+- Mobile-friendly UI
+
+---
+
+Team
+
+We developed EcoSphere to gain insights into web development, backend development, and ESG management through solving an actual problem.
