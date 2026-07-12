@@ -1,0 +1,104 @@
+.active{
+    background:#f97316;
+    border-radius:8px;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+.social-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.social-card{
+
+    background:#1b1b1b;
+
+    border:2px solid #f97316;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    color:white;
+
+}
+
+.join-btn{
+
+    background:#f97316;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+.table-container{
+    background:#1b1b1b;
+    margin-top:30px;
+    padding:20px;
+    border-radius:10px;
+    color:white;
+}
+
+.table-container h2{
+    margin-bottom:20px;
+}
+
+.table-container table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-container th,
+.table-container td{
+    padding:15px;
+    border-bottom:1px solid #333;
+    text-align:left;
+}
+
+.table-container th{
+    color:#f97316;
+}
+
+.card button{
+    margin-top:15px;
+}
+.table-container{
+    background:#1b1b1b;
+    margin-top:25px;
+    padding:20px;
+    border-radius:10px;
+    color:white;
+}
+
+.table-container table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-container th,
+.table-container td{
+    padding:15px;
+    border-bottom:1px solid #333;
+}
+
+.table-container th{
+    color:#f97316;
+}
+
+.table-container tr:hover{
+    background:#222;
+}

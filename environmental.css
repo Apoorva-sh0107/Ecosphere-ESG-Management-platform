@@ -1,0 +1,158 @@
+/* Active Menu */
+
+.active{
+    background:#16a34a;
+    border-radius:8px;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+/* Environmental Tabs */
+
+.env-tabs{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.env-tabs button{
+    flex:1;
+    padding:15px;
+    background:#1b1b1b;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:15px;
+}
+
+.env-tabs button:hover{
+    background:#2d2d2d;
+}
+
+.active-tab{
+    background:#16a34a !important;
+}
+
+/* Action Buttons */
+
+.action-buttons{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+}
+
+.action-buttons button{
+    padding:12px 22px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.green-btn{
+    background:#16a34a;
+}
+
+.yellow-btn{
+    background:#f59e0b;
+}
+
+.red-btn{
+    background:#ef4444;
+}
+
+.gray-btn{
+    background:#6b7280;
+}
+
+.green-btn:hover{
+    background:#15803d;
+}
+
+.yellow-btn:hover{
+    background:#d97706;
+}
+
+.red-btn:hover{
+    background:#dc2626;
+}
+
+.gray-btn:hover{
+    background:#4b5563;
+}
+
+/* Search Box */
+
+.search-box{
+    margin-top:20px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px;
+    background:#1b1b1b;
+    color:white;
+    border:1px solid #333;
+    border-radius:8px;
+    outline:none;
+}
+
+.search-box input::placeholder{
+    color:#999;
+}
+
+/* Table */
+
+.table-container{
+    margin-top:20px;
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:10px;
+}
+
+.table-container table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-container th{
+    color:#16a34a;
+    text-align:left;
+    padding:15px;
+    border-bottom:1px solid #333;
+}
+
+.table-container td{
+    color:white;
+    padding:15px;
+    border-bottom:1px solid #333;
+}
+
+.table-container tr:hover{
+    background:#222;
+}
+
+/* Status */
+
+.status-active{
+    color:#22c55e;
+    font-weight:bold;
+}
+
+.status-progress{
+    color:#facc15;
+    font-weight:bold;
+}
+
+.status-complete{
+    color:#3b82f6;
+    font-weight:bold;
+}
