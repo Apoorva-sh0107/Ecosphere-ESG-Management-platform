@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSphere Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>EcoSphere</h2>
+
+        <ul>
+   <li><a href="index.html">🏠Dashboard</a></li>
+
+   <li><a href="environmental.html">🌿Environmental</a></li>
+
+   <li><a href="social.html">👥Social</a></li>
+
+   <li><a href="governance.html">🛡 Governance</a></li>
+
+   <li><a href="gamification.html">🏆Gamification</a></li>
+
+   <li><a href="reports.html">📄Reports</a></li>
+
+   <li><a href="settings.html">⚙️Settings</a></li>
+</ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <!-- Topbar -->
+        <div class="topbar">
+            <h2>Dashboard</h2>
+        </div>
+
+        <!-- Score Cards -->
+        <div class="cards">
+
+            <div class="card">
+                <h3>Environmental Score</h3>
+                <h1>78</h1>
+                <p>/100</p>
+            </div>
+
+            <div class="card">
+                <h3>Governance Score</h3>
+                <h1>88</h1>
+                <p>/100</p>
+            </div>
+
+            <div class="card">
+                <h3>Overall ESG</h3>
+                <h1>81</h1>
+                <p>/100</p>
+            </div>
+
+        </div>
+
+        <!-- Charts -->
+        <div class="charts">
+
+            <!-- Line Chart -->
+            <div class="line-chart">
+                <h2>Emission Trend</h2>
+                <canvas id="emissionChart"></canvas>
+            </div>
+
+            <!-- Bar Chart -->
+            <div class="bar-chart">
+                <h2>Department Ranking</h2>
+                <canvas id="departmentChart"></canvas>
+            </div>
+<!-- Bottom Section -->
+
+<div class="bottom-section">
+
+    <!-- Recent Activity -->
+
+    <div class="activity">
+
+        <h2>Recent Activity</h2>
+
+        <ul>
+
+            <li>✔ New Carbon Entry Added</li>
+            <li>✔ CSR Activity Completed</li>
+            <li>✔ Governance Policy Updated</li>
+            <li>✔ Challenge Completed</li>
+
+        </ul>
+
+    </div>
+
+    <!-- Quick Actions -->
+
+    <div class="actions">
+
+        <h2>Quick Actions</h2>
+
+        <button class="green">+ Log Carbon Data</button>
+
+        <button class="orange">🏆 Start Challenge</button>
+
+        <button class="gray">📄 View Reports</button>
+
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Your JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
